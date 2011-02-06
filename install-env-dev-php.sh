@@ -10,6 +10,7 @@ sudo apt-get install -y php5
 sudo apt-get install -y php5-dev
 sudo apt-get install -y php5-cli
 sudo apt-get install -y php-apc
+sudo apt-get install -y php5-intl
 
 echo '------installing postgresql------'
 sudo apt-get install -y postgresql
@@ -48,6 +49,10 @@ echo '------updating php5 configuration------'
 sudo a2enmod php5
 sudo a2enmod rewrite
 #sudo chown cedricus:cedricus -R /var/www
+
+echo '------installing firefox extension------'
+sudo apt-get install -y firebug
+sudo apt-get install -y firefox-webdeveloper
 
 clear
 clear
