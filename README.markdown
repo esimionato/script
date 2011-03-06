@@ -2,6 +2,7 @@ Script
 ======
 
 Bash command line script to install some tools for web developping:
+
  * apache2
  * php5 (with dev, cli and apc, intl)
  * xdebug
