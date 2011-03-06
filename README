@@ -1,9 +1,0 @@
-Bash command line script to install some tools for web developping:
-* apache2
-* php5 (with dev, cli and apc)
-* postgresql
-* html tidy, css tidy and yui-compressor (W3C validating and minifying)
-* firebug
-* subversion
-* tree
-* gedit
