@@ -11,6 +11,9 @@ sudo apt-get install -y php5-cli
 sudo apt-get install -y php-apc
 sudo apt-get install -y php5-intl
 
+echo '------installing phpunit------'
+sudo apt-get install y phpunit
+
 echo '------installing databases------'
 sudo apt-get install -y postgresql
 sudo apt-get install -y php5-pgsql
