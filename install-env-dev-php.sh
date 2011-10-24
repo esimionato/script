@@ -36,17 +36,18 @@ sudo apt-get install -y tree
 echo '------installing text editors------'
 # Gedit Plugins
 # PPA source repository:
-sudo apt-add-repository ppa:ubuntu-on-rails/ppa
-sudo apt-get update
+#sudo apt-add-repository ppa:ubuntu-on-rails/ppa
+#sudo apt-get update
 # installation package :
-sudo apt-get install -y gedit-gmate
-sudo apt-get install -y gedit-plugins
+#sudo apt-get install -y gedit-gmate
+#sudo apt-get install -y gedit-plugins
 
 sudo apt-get install -y vim
 
 echo '------updating php5 configuration------'
 sudo a2enmod php5
 sudo a2enmod rewrite
+sudo apache2ctl graceful
 
 echo '------installing firefox extension------'
 sudo apt-get install -y firebug
